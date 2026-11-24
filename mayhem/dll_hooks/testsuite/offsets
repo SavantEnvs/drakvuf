@@ -1,0 +1,2 @@
+ntdll.dll,NtCreateFile,clsid,{00000000-0000-0000-C000-000000000046},log,FileHandle:pulong,lpcwstr,punicode_string
+kernel32.dll,ExitProcess,1a2b,no-retval,log+stack,refiid,binary16,lpvoid*

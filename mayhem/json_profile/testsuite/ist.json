@@ -1,0 +1,1 @@
+{"symbols":{"PsActiveProcessHead":{"address":4660},"KiSystemCall64":{"address":140737488355328}},"user_types":{"_EPROCESS":{"size":2048,"fields":{"Pcb":{"offset":0,"type":{"kind":"struct","name":"_KPROCESS"}}}}}}

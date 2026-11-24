@@ -1,0 +1,11 @@
+project: savantenvs/drakvuf
+target: json_profile
+
+cmds:
+  - cmd: /mayhem/fuzz_json_profile
+    libfuzzer: true
+    timeout: 5
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/json_profile/testsuite
